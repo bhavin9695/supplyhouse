@@ -5,9 +5,9 @@ Assumptions :
 
 Notes : 
 Before executing any Order management or Account management related apis,
-please make sure you do login as authentication and authorization part is 
+please make sure you do login through login API(/login) as actual authentication and authorization part is 
 not implemented as part of this assignment.
-It can be handled using generic Authentication filter
+Actual authentication and authorization can be handled using generic Authentication filter along with Spring security
 
 Database schema :
 
